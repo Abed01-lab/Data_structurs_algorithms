@@ -12,18 +12,14 @@ In summary, big O notation is a powerful tool for analyzing the time complexity 
 
 # Implement a queue data structure in a programming language of your choice (e.g. C++, Python, Java).
 
-Pleas at the file called *Queue.js*
 
 # Analyze the time complexity of the enqueue, dequeue and peek operations using big O notation.
 
-![](/images/enqueue.png)
 
 In the implementation, the enqueue method uses the push method of the array to add an element to the end of the queue. The push method has a time complexity of O(1) because it simply appends the element to the end of the array without having to shift any existing elements.
 
-![](/images/dequeue.png)
 
 In the implementation, the dequeue method uses the shift method of the array to remove the first element from the queue. The shift method has a time complexity of O(n) because it needs to shift all remaining elements to the left to fill the gap created by removing the first element.
 
-![](/images/peek.png)
 
 In the implementation, the front method simply returns the first element of the array using the index operator []. Aaccessing an element by index takes constant time regardless of the size of the array. There fore this method has a time complexity of O(1).
